@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dear Little Me – Buy on Amazon</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #ffffff;
+      color: #111;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .book-cover {
+      margin-top: 40px;
+    }
+    .book-cover img {
+      width: 300px;
+      max-width: 90%;
+      height: auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .section {
+      margin: 60px 20px;
+    }
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .section p, .section ul {
+      font-size: 1.1em;
+      font-weight: 300;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #000;
+      font-weight: bold;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 32px;
+      font-size: 1.2em;
+      font-weight: 600;
+      color: #fff;
+      background-color: #000;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #333;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .author-photo {
+      width: 180px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 768px) {
+      .section h2 {
+        font-size: 1.5em;
+      }
+      .button {
+        padding: 12px 24px;
+        font-size: 1em;
+      }
+      .section p, .section ul {
+        font-size: 1em;
+      }
+      .book-cover img {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="book-cover">
+    <img src="book_cover_resized_for_web.png" alt="Dear Little Me Book Cover">
+  </div>
+
+  <div class="section">
+    <h2>About the Book</h2>
+    <p><strong>Dear Little Me</strong> isn’t just a book—it’s a mirror, a map, and a megaphone for every soul who’s ever felt like “too much,” “not enough,” or simply misunderstood.</p>
+    <p>Patrycja Marta Jerushalmy, a single ADHD mama raising an ADHD son, shares her raw, unfiltered journey from intensity to insight. This is more than a story—it’s a lived revolution. A call to stop hiding and start building a life that <em>moves with your brain</em>, not against it.</p>
+    <p>You won’t find generic tips or shallow hacks here. You’ll find:<br>
+    • Lived truth<br>
+    • Science made human<br>
+    • A permission slip to finally feel whole</p>
+    <p>Because ADHD isn’t broken. It’s just a <strong>different operating system</strong>.<br>
+    And this book? It’s your invitation to thrive.</p>
+  </div>
+
+  <div class="section">
+    <h2>What You'll Discover</h2>
+    <ul>
+      <li>How to reframe ADHD as a superpower, not a setback</li>
+      <li>Tools designed for real-life neurodivergence—not one-size-fits-all “fixes”</li>
+      <li>Strategies to break the shame cycle, overcome burnout, and silence perfectionism</li>
+      <li>Permission to parent, work, love, and create with full authenticity and emotional freedom</li>
+      <li>A map for rebuilding trust with yourself, one compassionate step at a time</li>
+    </ul>
+    <p>Whether you’re navigating your own ADHD or supporting someone you love, this book will help you <em>decode the patterns and rediscover the magic</em> underneath it all.</p>
+  </div>
+
+  <div class="section">
+    <h2>About the Author</h2>
+    <img src="author_photo.jpg" alt="Author Patrycja Marta Jerushalmy" class="author-photo">
+    <p><strong>Patrycja Marta Jerushalmy</strong> is a writer, entrepreneur, creative soul, and neurodivergent mother who turns intensity into insight.</p>
+    <p>Fluent in five languages, shaped by life across continents, and guided by a beautifully wired ADHD brain, she brings bold truth and compassion to every word.</p>
+    <p>Patrycja is a fierce advocate for authenticity, self-trust, and emotional freedom—especially for those who’ve spent a lifetime feeling out of sync.</p>
+    <p>She doesn’t just talk about healing. She <em>embodies it</em>—through her motherhood, her story, and her mission:<br>
+    To remind every soul that they are not too much.<br>
+    They are <strong>exactly enough</strong>.</p>
+  </div>
+
+  <div class="section">
+    <h2>Where to Get the Book</h2>
+    <a href="https://www.amazon.com/dp/1968275002/ref=tmm_pap_swatch_0" class="button" target="_blank">Buy on Amazon (Paperback & Kindle)</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Patrycja Marta Jerushalmy — Be Original, Be Yourself
+  </footer>
+</div>
+
+</body>
+</html>
